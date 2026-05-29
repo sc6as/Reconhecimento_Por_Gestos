@@ -1,1 +1,0 @@
-# Reconhecimento_Por_Gestos

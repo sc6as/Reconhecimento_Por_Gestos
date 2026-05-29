@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+#app {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: 20px auto;
+}
+
+video,
+canvas {
+  position: absolute;
+  width: 640px;
+  height: 480px;
+  left: 0;
+  top: 0;
+  border-radius: 12px;
+}
+
+video {
+  transform: scaleX(-1);
+}
+
+canvas {
+  transform: scaleX(-1);
+}
+
+p {
+  font-size: 22px;
+}
